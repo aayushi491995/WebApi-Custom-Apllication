@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProductModelStoreContainer" CdmEntityContainer="ProductEntities">
+    <EntitySetMapping Name="tblProducts">
+      <EntityTypeMapping TypeName="ProductModel.tblProducts">
+        <MappingFragment StoreEntitySet="tblProducts">
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="pdesc" ColumnName="pdesc" />
+          <ScalarProperty Name="pname" ColumnName="pname" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
